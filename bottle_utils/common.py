@@ -26,8 +26,8 @@ ESCAPE_MAPPING = (
     ('\t', '&#9;'),
 )
 
-PY2 = sys.version_info.major == 2
-PY3 = sys.version_info.major == 3
+PY2 = sys.version_info[0] == 2
+PY3 = sys.version_info[0] == 3
 
 
 if PY3:
